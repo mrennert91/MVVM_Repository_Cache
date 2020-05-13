@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_home"
+    app:startDestination="@id/photosFragment">
+
+    <fragment
+        android:id="@+id/photosFragment"
+        android:name="com.example.mvvmrepository.fragments.PhotosFragment"
+        android:label="fragment_photos"
+        tools:layout="@layout/fragment_photos" >
+    </fragment>
+    <fragment
+        android:id="@+id/albumsFragment"
+        android:name="com.example.mvvmrepository.fragments.AlbumsFragment"
+        android:label="fragment_albums"
+        tools:layout="@layout/fragment_albums" >
+    </fragment>
+    <fragment
+        android:id="@+id/postsFragment"
+        android:name="com.example.mvvmrepository.fragments.PostsFragment"
+        android:label="fragment_posts"
+        tools:layout="@layout/fragment_posts" >
+    </fragment>
+    <fragment
+        android:id="@+id/todosFragment"
+        android:name="com.example.mvvmrepository.fragments.TodosFragment"
+        android:label="fragment_todos"
+        tools:layout="@layout/fragment_todos" >
+    </fragment>
+</navigation>

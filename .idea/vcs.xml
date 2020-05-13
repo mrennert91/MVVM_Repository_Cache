@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/AviionLibraryProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AviionPlayerProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HNBtoken" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/androidaviionhs5" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/architecture-samples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aviion-android-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gradleribbon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tvzavan" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vipbnettvzavan" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xploretv" vcs="Git" />
+  </component>
+</project>
