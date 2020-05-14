@@ -66,6 +66,7 @@ public class AlbumsFragment extends Fragment {
         binding.albumTabs.addOnTabSelectedListener( new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected( TabLayout.Tab tab ) {
+                ( (MainActivity) getActivity() ).setLoaderVisibility( true );
                 albumViewModel.fetchPhotoAlbums( tab.getPosition() + 1, tab.getText().toString() );
             }
 

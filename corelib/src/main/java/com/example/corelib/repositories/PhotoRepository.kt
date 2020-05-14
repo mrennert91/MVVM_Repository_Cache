@@ -35,7 +35,7 @@ class PhotoRepository(private val myApp: CoreApp) {
     fun getPhotos(cache: Boolean): MutableLiveData<ArrayList<Photo>> {
         if (cache) {
             CoroutineScope(Dispatchers.Main).launch {
-                photosList.value = withContext(Dispatchers.IO) { myApp.photoStore!!.get(OpenStore.PHOTO_STORE_KEY) }
+                photosList.value = withContext(Dispatchers.IO) { myApp.photoStore.get(OpenStore.PHOTO_STORE_KEY) }
             }
         } else {
             return getPhotos()
@@ -45,7 +45,7 @@ class PhotoRepository(private val myApp: CoreApp) {
 
     fun getFresh() {
         CoroutineScope(Dispatchers.Main).launch {
-            photosList.value = withContext(Dispatchers.IO) { myApp.photoStore!!.fresh(OpenStore.PHOTO_STORE_KEY) }
+            photosList.value = withContext(Dispatchers.IO) { myApp.photoStore.fresh(OpenStore.PHOTO_STORE_KEY) }
         }
     }
 }

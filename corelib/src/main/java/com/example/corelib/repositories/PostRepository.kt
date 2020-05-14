@@ -33,7 +33,7 @@ class PostRepository(private val myApp: CoreApp) {
     fun getPosts(cache: Boolean): MutableLiveData<ArrayList<Post>> {
         if (cache) {
             CoroutineScope(Dispatchers.Main).launch {
-                postsList.value = withContext(Dispatchers.IO) { myApp.postStore!!.get(OpenStore.POST_STORE_KEY) }
+                postsList.value = withContext(Dispatchers.IO) { myApp.postStore.get(OpenStore.POST_STORE_KEY) }
             }
         } else {
             return getPosts()

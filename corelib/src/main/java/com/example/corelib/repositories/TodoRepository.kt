@@ -34,7 +34,7 @@ class TodoRepository(private val myApp: CoreApp) {
     fun getTodos(cache: Boolean): MutableLiveData<ArrayList<Todo>> {
         if (cache) {
             CoroutineScope(Dispatchers.Main).launch {
-                todosList.value = withContext(Dispatchers.IO) { myApp.todoStore!!.get(OpenStore.TODO_STORE_KEY) }
+                todosList.value = withContext(Dispatchers.IO) { myApp.todoStore.get(OpenStore.TODO_STORE_KEY) }
             }
         } else {
             return getTodos()

@@ -33,7 +33,7 @@ class AlbumRepository(private val myApp: CoreApp) {
     @ExperimentalTime
     fun getAlbums(cache: Boolean): MutableLiveData<ArrayList<Album>> {
         if (cache) {
-            CoroutineScope(Dispatchers.Main).launch { albumsList.value = myApp.albumStore!!.get(OpenStore.ALBUM_STORE_KEY) }
+            CoroutineScope(Dispatchers.Main).launch { albumsList.value = myApp.albumStore.get(OpenStore.ALBUM_STORE_KEY) }
         } else {
             return getAlbums()
         }
