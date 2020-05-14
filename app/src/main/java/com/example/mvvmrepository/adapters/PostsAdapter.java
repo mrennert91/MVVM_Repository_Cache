@@ -5,7 +5,7 @@ import android.view.ViewGroup;
 
 import com.example.mvvmrepository.R;
 import com.example.mvvmrepository.databinding.PostItemBinding;
-import com.example.mvvmrepository.models.Post;
+import com.example.corelib.models.Post;
 
 import java.util.ArrayList;
 

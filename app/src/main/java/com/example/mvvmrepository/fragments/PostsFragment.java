@@ -10,8 +10,8 @@ import com.example.mvvmrepository.MyApp;
 import com.example.mvvmrepository.R;
 import com.example.mvvmrepository.adapters.PostsAdapter;
 import com.example.mvvmrepository.databinding.FragmentPostsBinding;
-import com.example.mvvmrepository.models.Post;
-import com.example.mvvmrepository.viewmodels.PostViewModel;
+import com.example.corelib.models.Post;
+import com.example.corelib.viewmodels.PostViewModel;
 
 import java.util.ArrayList;
 

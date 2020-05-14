@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 
 import com.example.mvvmrepository.R;
 import com.example.mvvmrepository.databinding.PhotoItemBinding;
-import com.example.mvvmrepository.models.Photo;
+import com.example.corelib.models.Photo;
 
 import java.util.ArrayList;
 

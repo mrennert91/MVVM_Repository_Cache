@@ -5,7 +5,7 @@ import android.view.ViewGroup;
 
 import com.example.mvvmrepository.R;
 import com.example.mvvmrepository.databinding.AlbumItemBinding;
-import com.example.mvvmrepository.models.Album;
+import com.example.corelib.models.Album;
 
 import java.util.ArrayList;
 

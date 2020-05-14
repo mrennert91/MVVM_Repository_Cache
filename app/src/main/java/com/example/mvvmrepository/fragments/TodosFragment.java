@@ -10,8 +10,8 @@ import com.example.mvvmrepository.MyApp;
 import com.example.mvvmrepository.R;
 import com.example.mvvmrepository.adapters.TodosAdapter;
 import com.example.mvvmrepository.databinding.FragmentTodosBinding;
-import com.example.mvvmrepository.models.Todo;
-import com.example.mvvmrepository.viewmodels.TodoViewModel;
+import com.example.corelib.models.Todo;
+import com.example.corelib.viewmodels.TodoViewModel;
 
 import java.util.ArrayList;
 

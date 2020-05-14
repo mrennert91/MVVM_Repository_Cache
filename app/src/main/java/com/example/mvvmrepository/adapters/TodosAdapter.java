@@ -6,7 +6,7 @@ import android.view.ViewGroup;
 
 import com.example.mvvmrepository.R;
 import com.example.mvvmrepository.databinding.TodoItemBinding;
-import com.example.mvvmrepository.models.Todo;
+import com.example.corelib.models.Todo;
 
 import java.util.ArrayList;
 

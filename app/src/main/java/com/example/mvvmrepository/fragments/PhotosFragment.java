@@ -10,8 +10,8 @@ import com.example.mvvmrepository.MyApp;
 import com.example.mvvmrepository.R;
 import com.example.mvvmrepository.adapters.PhotosAdapter;
 import com.example.mvvmrepository.databinding.FragmentPhotosBinding;
-import com.example.mvvmrepository.models.Photo;
-import com.example.mvvmrepository.viewmodels.PhotoViewModel;
+import com.example.corelib.models.Photo;
+import com.example.corelib.viewmodels.PhotoViewModel;
 
 import java.util.ArrayList;
 

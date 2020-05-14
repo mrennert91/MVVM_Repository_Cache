@@ -10,9 +10,9 @@ import com.example.mvvmrepository.MyApp;
 import com.example.mvvmrepository.R;
 import com.example.mvvmrepository.adapters.PhotosAdapter;
 import com.example.mvvmrepository.databinding.FragmentAlbumsBinding;
-import com.example.mvvmrepository.models.Album;
-import com.example.mvvmrepository.models.Photo;
-import com.example.mvvmrepository.viewmodels.AlbumViewModel;
+import com.example.corelib.models.Album;
+import com.example.corelib.models.Photo;
+import com.example.corelib.viewmodels.AlbumViewModel;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
